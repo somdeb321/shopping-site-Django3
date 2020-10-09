@@ -1,0 +1,307 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Trademill deals</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'affiliate/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'affiliate/css/modern-business.css' %}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Shocking Deals!</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Privacy Policy</a>
+          </li> -->
+
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+              <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
+              <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+            </div>
+          </li> -->
+
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Blog
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+              <a class="dropdown-item" href="blog-home-1.html">Blog Home 1</a>
+              <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
+              <a class="dropdown-item" href="blog-post.html">Blog Post</a>
+            </div>
+          </li> -->
+
+
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Other Pages
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPages">
+              <a class="dropdown-item" href="full-width.html">Full Width Page</a>
+              <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
+              <a class="dropdown-item" href="faq.html">FAQ</a>
+              <a class="dropdown-item" href="404.html">404</a>
+              <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+            </div>
+          </li> -->
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <!-- Slide One - Set the background image for this slide in the line below -->
+        <div class="carousel-item active" style="background-image: url('{% static 'affiliate/images/001unsplash.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Do not Wait Forever</h3>
+            <p>Register your product with desired price to get an alert at the right moment!!</p>
+          </div>
+        </div>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/002unsplash.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Shop and Enjoy!</h3>
+            <p>Buy the items you always wanted at the best price!</p>
+          </div>
+        </div>
+        <!-- Slide Three - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url('{% static 'affiliate/images/003unsplash.jpg' %}')">
+          <div class="carousel-caption d-none d-md-block">
+            <h3>Don't Procrastinate</h3>
+            <p>Just jump and shop from time limited deals! </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <h1 class="my-4">Welcome to Crazy Deals</h1>
+
+    <!-- Marketing Icons Section -->
+    <!-- <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Card Title</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Card Title</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+          <h4 class="card-header">Card Title</h4>
+          <div class="card-body">
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+          </div>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!-- /.row -->
+
+    <!-- Portfolio Section -->
+    <h2>Time Limited Deals </h2>
+
+    <div class="row">
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3d7kxOq"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/71JvCXIbkwL._SL1500_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/3d7kxOq">MI TV 4A Horizon Edition 43 inch</a>
+            </h4>
+            <p class="card-text">Full HD (1920x1080) , Refresh Rate: 60 hertz Connectivity: Connectivity : 3 HDMI ports to connect set top box, Blue Ray players , 2 USB ports to connect hard drives and other USB devices , Bluetooth 4.1 Smart TV Features : Android TV 9 , Google Assistant , Google Play , Chromecast Built-in , Google Data Saver to watch 3X more on mobile data , Supported Apps: Netflix , Prime Video , Disney+ Hotstar , YouTube , 5000+ apps from Google Play Store, Mi Quick Wake Under 5 secs Sound: 20 Watts Stereo Speakers , DTS-HD sound Display : Bezel-less Design </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/36LnqmD"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51KxyIitExL._SL1000_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/36LnqmD">Echo Dot (Black) bundle with Wipro 9W LED smart color bulb</a>
+            </h4>
+            <p class="card-text">This bundle contains Echo Dot and Wipro 9W smart color bulb. Use this bundle to experience the magic of controlling your lights, using just your voice or remotely from home. Or simply create routine to dim them automatically at night. Only Wi-Fi needed - no additonal hub or setup required!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3ntLRuO"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51kGDXeFZKL._SL1024_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/3ntLRuO">Apple iPhone 11 (64GB) - Black</a>
+            </h4>
+            <p class="card-text">6.1-inch (15.5 cm) Liquid Retina HD LCD display
+              Water and dust resistant (2 meters for up to 30 minutes, IP68)
+              Dual-camera system with 12MP Ultra Wide and Wide cameras; Night mode, Portrait mode, and 4K video up to 60fps
+              12MP TrueDepth front camera with Portrait mode, 4K video, and Slo-Mo
+              Face ID for secure authentication and Apple Pay
+              A13 Bionic chip with third-generation Neural Engine
+              Fast-charge capable</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3loVjxH"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/51jGCELP5zL._SL1100_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/3loVjxH">pTron Bassbuds in-Ear True Wireless Bluetooth Headphones (TWS) with Mic</a>
+            </h4>
+            <p class="card-text">Bluetooth 5.0; 6 Hours Playback Time (Earbuds) & Extended Playtime up to 20 Hours with the Charging Case; 5 Hours of Talk-time; 1.5 Hours Charging Time; 100 Hours of Standby-time
+              10m Wireless range; Voice Assistant Support; 400mAh Compact & Portable Charging Case, Micro USB Charging Cable Provided; Up to 2 to 3 Charge Cycles</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/2GKhlfB"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/719CgfLcqNL._SL1500_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/2GKhlfB">OnePlus Nord 5G (Gray Onyx, 8GB RAM, 128GB Storage)</a>
+            </h4>
+            <p class="card-text">48MP+8MP+5MP+2MP quad rear camera with 1080P Video at 30/60 fps, 4k 30fps | 32MP+8MP front dual camera with 4K video capture at 30/60 fps and 1080 video capture at 30/60 fps
+              6.44-inch 90Hz fluid Amoled display with 2400 x 1080 pixels resolution | 408ppi
+              Memory, Storage & SIM: 8GB RAM | 128GB internal memory | Dual SIM (nano+nano) | OnePlus Nord currently support dual 4G SIM Cards or a Single 5G SIM. 5G+4G support will be available via OTA update at a future date.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+          <a href="https://amzn.to/3iAS9Fu"><img class="card-img-top" src="https://images-na.ssl-images-amazon.com/images/I/61QxtMhxUgL._SL1500_.jpg" alt=""></a>
+          <div class="card-body">
+            <h4 class="card-title">
+              <a href="https://amzn.to/30N9pkR">Solimo Hand Sanitizer Gel (72% Ethanol Absolute) - 500 ml</a>
+            </h4>
+            <p class="card-text">Effective protection from 99.9% harmful germs & bacteria
+              Solimo Hand Sanitizer Gel
+              Non sticky</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.row -->
+
+    <!-- Features Section -->
+    <!-- <div class="row">
+      <div class="col-lg-6">
+        <h2>Modern Business Features</h2>
+        <p>The Modern Business template by Start Bootstrap includes:</p>
+        <ul>
+          <li>
+            <strong>Bootstrap v4</strong>
+          </li>
+          <li>jQuery</li>
+          <li>Font Awesome</li>
+          <li>Working contact form with validation</li>
+          <li>Unstyled page elements for easy customization</li>
+        </ul>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+      </div>
+      <div class="col-lg-6">
+        
+      </div>
+    </div> -->
+    <!-- /.row -->
+
+    <hr>
+
+    <!-- Call to Action Section -->
+    <div class="row mb-4">
+      <div class="col-md-8">
+        <p>Excercise in your home has never been easier, we have searched Amazon for the cheapest and best quality fitness gears.</p>
+      </div>
+      <div class="col-md-4">
+        <a class="btn btn-lg btn-secondary btn-block" href="https://www.amazon.in/gp/search?ie=UTF8&tag=somdeb321-21&linkCode=ur2&linkId=5a3c0e18cefec42fab9fa2f357a8b79c&camp=3638&creative=24630&index=sporting&keywords=Treadmils">Stay FIT ! Shop Fitness Gear on Amazon</a>
+      </div>
+    </div>
+    <br><br>
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Crazy Deals</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'affiliate/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'affiliate/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>
