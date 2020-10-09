@@ -125,3 +125,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # STATICFILES_DIRS = [
 #     os.path.join(BASE_DIR, 'static'),
 # ]
+
+try:
+    from .local_settings import *
+except ImportError:
+    print("Lokks like no local file. You must be on Live server!")
